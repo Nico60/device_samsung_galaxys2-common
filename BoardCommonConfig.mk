@@ -77,6 +77,9 @@ TARGET_RELEASETOOL_IMG_FROM_TARGET_SCRIPT := ./device/samsung/galaxys2-common/re
 # Hardware tunables
 BOARD_HARDWARE_CLASS := hardware/samsung/cmhw
 
+# External apps on SD
+TARGET_EXTERNAL_APPS = sdcard1
+
 # Graphics
 BOARD_EGL_CFG := device/samsung/galaxys2-common/configs/egl.cfg
 USE_OPENGL_RENDERER := true
